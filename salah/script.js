@@ -116,7 +116,7 @@ async function fetchTodaysPrayerTimesForNextPrayer() {
     const year = today.getFullYear();
     const formattedDate = `${year}-${month}-${day}`;
 
-    const apiKey = 'cde641ff-cdde-4d25-8a62-4ec8cabc7f57';
+    const apiKey = '';
     const url = `https://www.londonprayertimes.com/api/times/?format=json&key=${apiKey}&date=${formattedDate}&24hours=true`;
 
     try {
@@ -149,7 +149,7 @@ async function fetchPrayerTimes(date) {
     const year = date.getFullYear();
     const formattedDate = `${year}-${month}-${day}`;
 
-    const apiKey = 'cde641ff-cdde-4d25-8a62-4ec8cabc7f57';
+    const apiKey = '';
     const url = `https://www.londonprayertimes.com/api/times/?format=json&key=${apiKey}&date=${formattedDate}&24hours=true`;
 
     try {
