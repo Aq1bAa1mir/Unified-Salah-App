@@ -1,4 +1,4 @@
-const apiKey = 'cde641ff-cdde-4d25-8a62-4ec8cabc7f57'; // Replace with your API key
+const apiKey = ' // Replace with your API key
 let currentDate = new Date();
 let selectedDate = new Date();
 
@@ -68,7 +68,7 @@ function updateCurrentTime() {
     });
 }
 
-// Fetch Islamic date from Aladhan API
+// Fetch Islamic date from Aladhan 
 async function fetchIslamicDate(date) {
     const day = String(date.getDate()).padStart(2, '0');
     const month = String(date.getMonth() + 1).padStart(2, '0');
