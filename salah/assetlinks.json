@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.salah.prayertimes",
+    "sha256_cert_fingerprints": [
+      "6F:9E:7B:0B:3C:BD:E6:1F:6E:EA:91:75:02:A3:2A:94:CD:28:1A:BB:F5:20:9E:26:69:81:6D:AE:69:58:7D:5D"
+    ]
+  }
+}]
